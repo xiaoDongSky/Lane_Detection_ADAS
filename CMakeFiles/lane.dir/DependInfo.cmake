@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dark_knight/ImageProcessing/lane_new/lane_detect.cpp" "/home/dark_knight/ImageProcessing/lane_new/CMakeFiles/lane.dir/lane_detect.cpp.o"
+  "/home/dark_knight/ImageProcessing/Lane_Detection_ADAS/lane_detect.cpp" "/home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles/lane.dir/lane_detect.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

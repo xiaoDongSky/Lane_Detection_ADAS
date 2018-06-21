@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dark_knight/ImageProcessing/lane_new
+CMAKE_SOURCE_DIR = /home/dark_knight/ImageProcessing/Lane_Detection_ADAS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dark_knight/ImageProcessing/lane_new
+CMAKE_BINARY_DIR = /home/dark_knight/ImageProcessing/Lane_Detection_ADAS
 
 #=============================================================================
 # Target rules for target CMakeFiles/lane.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/dark_knight/ImageProcessing/lane_new
 CMakeFiles/lane.dir/all:
 	$(MAKE) -f CMakeFiles/lane.dir/build.make CMakeFiles/lane.dir/depend
 	$(MAKE) -f CMakeFiles/lane.dir/build.make CMakeFiles/lane.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dark_knight/ImageProcessing/lane_new/CMakeFiles --progress-num=1,2 "Built target lane"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles --progress-num=1,2 "Built target lane"
 .PHONY : CMakeFiles/lane.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/lane.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lane.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dark_knight/ImageProcessing/lane_new/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lane.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dark_knight/ImageProcessing/lane_new/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles 0
 .PHONY : CMakeFiles/lane.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ clean: CMakeFiles/lane.dir/clean
 CMakeFiles/lane_detect.dir/all: CMakeFiles/lane.dir/all
 	$(MAKE) -f CMakeFiles/lane_detect.dir/build.make CMakeFiles/lane_detect.dir/depend
 	$(MAKE) -f CMakeFiles/lane_detect.dir/build.make CMakeFiles/lane_detect.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dark_knight/ImageProcessing/lane_new/CMakeFiles --progress-num=3,4 "Built target lane_detect"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles --progress-num=3,4 "Built target lane_detect"
 .PHONY : CMakeFiles/lane_detect.dir/all
 
 # Include target in all.
@@ -113,9 +113,9 @@ all: CMakeFiles/lane_detect.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lane_detect.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dark_knight/ImageProcessing/lane_new/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/lane_detect.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dark_knight/ImageProcessing/lane_new/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles 0
 .PHONY : CMakeFiles/lane_detect.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ clean: CMakeFiles/lane_detect.dir/clean
 CMakeFiles/test1.dir/all:
 	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/depend
 	$(MAKE) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dark_knight/ImageProcessing/lane_new/CMakeFiles --progress-num=5,6 "Built target test1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles --progress-num=5,6 "Built target test1"
 .PHONY : CMakeFiles/test1.dir/all
 
 # Include target in all.
@@ -150,9 +150,9 @@ all: CMakeFiles/test1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dark_knight/ImageProcessing/lane_new/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dark_knight/ImageProcessing/lane_new/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles 0
 .PHONY : CMakeFiles/test1.dir/rule
 
 # Convenience name for target.

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dark_knight/ImageProcessing/lane_new/main.cpp" "/home/dark_knight/ImageProcessing/lane_new/CMakeFiles/lane_detect.dir/main.cpp.o"
+  "/home/dark_knight/ImageProcessing/Lane_Detection_ADAS/main.cpp" "/home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles/lane_detect.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,7 +18,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/dark_knight/ImageProcessing/lane_new/CMakeFiles/lane.dir/DependInfo.cmake"
+  "/home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles/lane.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

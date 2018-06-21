@@ -1,4 +1,4 @@
-# Install script for directory: /home/dark_knight/ImageProcessing/lane_new
+# Install script for directory: /home/dark_knight/ImageProcessing/Lane_Detection_ADAS
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dark_knight/ImageProcessing/lane_new/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dark_knight/ImageProcessing/Lane_Detection_ADAS/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

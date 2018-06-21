@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dark_knight/ImageProcessing/lane_new
+CMAKE_SOURCE_DIR = /home/dark_knight/ImageProcessing/Lane_Detection_ADAS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dark_knight/ImageProcessing/lane_new
+CMAKE_BINARY_DIR = /home/dark_knight/ImageProcessing/Lane_Detection_ADAS
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lane.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/lane.dir/flags.make
 
 CMakeFiles/lane.dir/lane_detect.cpp.o: CMakeFiles/lane.dir/flags.make
 CMakeFiles/lane.dir/lane_detect.cpp.o: lane_detect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dark_knight/ImageProcessing/lane_new/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lane.dir/lane_detect.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lane.dir/lane_detect.cpp.o -c /home/dark_knight/ImageProcessing/lane_new/lane_detect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lane.dir/lane_detect.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lane.dir/lane_detect.cpp.o -c /home/dark_knight/ImageProcessing/Lane_Detection_ADAS/lane_detect.cpp
 
 CMakeFiles/lane.dir/lane_detect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lane.dir/lane_detect.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dark_knight/ImageProcessing/lane_new/lane_detect.cpp > CMakeFiles/lane.dir/lane_detect.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dark_knight/ImageProcessing/Lane_Detection_ADAS/lane_detect.cpp > CMakeFiles/lane.dir/lane_detect.cpp.i
 
 CMakeFiles/lane.dir/lane_detect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lane.dir/lane_detect.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dark_knight/ImageProcessing/lane_new/lane_detect.cpp -o CMakeFiles/lane.dir/lane_detect.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dark_knight/ImageProcessing/Lane_Detection_ADAS/lane_detect.cpp -o CMakeFiles/lane.dir/lane_detect.cpp.s
 
 CMakeFiles/lane.dir/lane_detect.cpp.o.requires:
 
@@ -91,7 +91,7 @@ lane_EXTERNAL_OBJECTS =
 liblane.a: CMakeFiles/lane.dir/lane_detect.cpp.o
 liblane.a: CMakeFiles/lane.dir/build.make
 liblane.a: CMakeFiles/lane.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dark_knight/ImageProcessing/lane_new/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblane.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblane.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/lane.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lane.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/lane.dir/clean:
 .PHONY : CMakeFiles/lane.dir/clean
 
 CMakeFiles/lane.dir/depend:
-	cd /home/dark_knight/ImageProcessing/lane_new && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dark_knight/ImageProcessing/lane_new /home/dark_knight/ImageProcessing/lane_new /home/dark_knight/ImageProcessing/lane_new /home/dark_knight/ImageProcessing/lane_new /home/dark_knight/ImageProcessing/lane_new/CMakeFiles/lane.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dark_knight/ImageProcessing/Lane_Detection_ADAS && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dark_knight/ImageProcessing/Lane_Detection_ADAS /home/dark_knight/ImageProcessing/Lane_Detection_ADAS /home/dark_knight/ImageProcessing/Lane_Detection_ADAS /home/dark_knight/ImageProcessing/Lane_Detection_ADAS /home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles/lane.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lane.dir/depend
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dark_knight/ImageProcessing/lane_new
+CMAKE_SOURCE_DIR = /home/dark_knight/ImageProcessing/Lane_Detection_ADAS
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dark_knight/ImageProcessing/lane_new
+CMAKE_BINARY_DIR = /home/dark_knight/ImageProcessing/Lane_Detection_ADAS
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dark_knight/ImageProcessing/lane_new/CMakeFiles /home/dark_knight/ImageProcessing/lane_new/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles /home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dark_knight/ImageProcessing/lane_new/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

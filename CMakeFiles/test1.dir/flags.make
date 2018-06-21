@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/dark_knight/ImageProcessing/lane_new/include -I/home/dark_knight/ImageProcessing/lane_new -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv 
+CXX_INCLUDES = -I/home/dark_knight/ImageProcessing/Lane_Detection_ADAS/include -I/home/dark_knight/ImageProcessing/Lane_Detection_ADAS -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev -isystem /opt/ros/kinetic/include/opencv-3.3.1-dev/opencv 
 

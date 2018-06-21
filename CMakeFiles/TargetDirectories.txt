@@ -1,5 +1,5 @@
-/home/dark_knight/ImageProcessing/lane_new/CMakeFiles/edit_cache.dir
-/home/dark_knight/ImageProcessing/lane_new/CMakeFiles/lane.dir
-/home/dark_knight/ImageProcessing/lane_new/CMakeFiles/lane_detect.dir
-/home/dark_knight/ImageProcessing/lane_new/CMakeFiles/test1.dir
-/home/dark_knight/ImageProcessing/lane_new/CMakeFiles/rebuild_cache.dir
+/home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles/edit_cache.dir
+/home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles/lane.dir
+/home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles/lane_detect.dir
+/home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles/test1.dir
+/home/dark_knight/ImageProcessing/Lane_Detection_ADAS/CMakeFiles/rebuild_cache.dir

@@ -13,8 +13,8 @@ int main(){
 	lane_detect obj;
 	//cv::Mat img = cv::imread("img15.png",CV_LOAD_IMAGE_COLOR);
 
-	//cv::VideoCapture cap("project_video.mp4");
-	cv::VideoCapture cap("challenge_video.mp4");
+	cv::VideoCapture cap("project_video.mp4");
+	//cv::VideoCapture cap("challenge_video.mp4");
 	if(!cap.isOpened()){
 		std::cout<<"Error opening video stream"<<std::endl;
 		return -1;
